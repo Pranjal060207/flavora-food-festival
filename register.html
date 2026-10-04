@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Register | Flavora 2026</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+
+<body class="bg-orange-50 text-gray-900">
+
+    <!-- HEADER -->
+    <header class="bg-gray-950 text-white sticky top-0 z-50">
+
+        <nav class="max-w-7xl mx-auto px-5 py-4 flex flex-wrap
+                    justify-between items-center">
+
+            <a href="index.html"
+               class="text-2xl font-black text-orange-400">
+                FLAVORA26
+            </a>
+
+            <div class="flex flex-wrap gap-5 text-sm font-semibold">
+
+                <a href="index.html"
+                   class="hover:text-orange-400 transition">
+                    Home
+                </a>
+
+                <a href="schedule.html"
+                   class="hover:text-orange-400 transition">
+                    Schedule
+                </a>
+
+                <a href="highlights.html"
+                   class="hover:text-orange-400 transition">
+                    Highlights
+                </a>
+
+                <a href="register.html"
+                   class="text-orange-400">
+                    Register
+                </a>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- TITLE -->
+        <section class="bg-gray-950 text-white py-20">
+
+            <div class="max-w-5xl mx-auto px-5">
+
+                <p class="text-orange-400 uppercase tracking-widest font-bold">
+                    Your food adventure starts here
+                </p>
+
+                <h1 class="text-5xl md:text-6xl font-black mt-3">
+                    Register Now
+                </h1>
+
+            </div>
+
+        </section>
+
+
+        <!-- FORM -->
+        <section class="max-w-5xl mx-auto px-5 py-16">
+
+            <form class="bg-white rounded-3xl shadow-xl p-6 md:p-10">
+
+                <!-- NAME -->
+                <div>
+
+                    <label for="name"
+                           class="font-bold">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        placeholder="Enter your name"
+                        class="w-full mt-2 border border-gray-300 rounded-xl
+                               px-4 py-3 outline-none
+                               focus:border-orange-500 focus:ring-2
+                               focus:ring-orange-200"
+                    >
+
+                </div>
+
+
+                <!-- EMAIL -->
+                <div class="mt-6">
+
+                    <label for="email"
+                           class="font-bold">
+                        Email Address
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="you@example.com"
+                        class="w-full mt-2 border border-gray-300 rounded-xl
+                               px-4 py-3 outline-none
+                               focus:border-orange-500 focus:ring-2
+                               focus:ring-orange-200"
+                    >
+
+                </div>
+
+
+                <!-- PHONE -->
+                <div class="mt-6">
+
+                    <label for="phone"
+                           class="font-bold">
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Enter your phone number"
+                        class="w-full mt-2 border border-gray-300 rounded-xl
+                               px-4 py-3 outline-none
+                               focus:border-orange-500 focus:ring-2
+                               focus:ring-orange-200"
+                    >
+
+                </div>
+
+
+                <!-- TICKET RADIO -->
+                <fieldset class="mt-8">
+
+                    <legend class="font-bold text-lg">
+                        Select Ticket Type
+                    </legend>
+
+
+                    <div class="grid md:grid-cols-3 gap-4 mt-4">
+
+                        <label class="border rounded-xl p-4 cursor-pointer
+                                      hover:border-orange-500 transition">
+
+                            <input
+                                type="radio"
+                                name="ticket"
+                                value="day"
+                                required
+                            >
+
+                            <span class="ml-2 font-semibold">
+                                Day Pass — ₹299
+                            </span>
+
+                        </label>
+
+
+                        <label class="border rounded-xl p-4 cursor-pointer
+                                      hover:border-orange-500 transition">
+
+                            <input
+                                type="radio"
+                                name="ticket"
+                                value="weekend"
+                            >
+
+                            <span class="ml-2 font-semibold">
+                                Weekend — ₹699
+                            </span>
+
+                        </label>
+
+
+                        <label class="border rounded-xl p-4 cursor-pointer
+                                      hover:border-orange-500 transition">
+
+                            <input
+                                type="radio"
+                                name="ticket"
+                                value="vip"
+                            >
+
+                            <span class="ml-2 font-semibold">
+                                VIP — ₹1499
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </fieldset>
+
+
+                <!-- DATE -->
+                <div class="mt-8">
+
+                    <label for="date"
+                           class="font-bold">
+                        Preferred Visit Date
+                    </label>
+
+                    <select
+                        id="date"
+                        name="date"
+                        class="w-full mt-2 border border-gray-300
+                               rounded-xl px-4 py-3 bg-white
+                               focus:border-orange-500"
+                    >
+
+                        <option value="">
+                            Select a date
+                        </option>
+
+                        <option>
+                            14 November 2026
+                        </option>
+
+                        <option>
+                            15 November 2026
+                        </option>
+
+                        <option>
+                            16 November 2026
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- TERMS -->
+                <div class="mt-8">
+
+                    <label class="flex gap-3 items-start cursor-pointer">
+
+                        <input
+                            type="checkbox"
+                            name="terms"
+                            required
+                            class="mt-1"
+                        >
+
+                        <span class="text-gray-600">
+                            I agree to the festival
+                            <span class="font-bold text-gray-900">
+                                Terms & Conditions
+                            </span>
+                            and understand that my registration details
+                            will be used for event communication.
+                        </span>
+
+                    </label>
+
+                </div>
+
+
+                <!-- BUTTON -->
+                <button
+                    type="submit"
+                    class="w-full mt-8 bg-orange-500 text-white
+                           py-4 rounded-xl font-bold text-lg
+                           hover:bg-orange-600 hover:scale-[1.02]
+                           transition"
+                >
+                    Complete Registration
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- VENUE -->
+        <section class="bg-gray-950 text-white py-16">
+
+            <div class="max-w-5xl mx-auto px-5 text-center">
+
+                <h2 class="text-3xl font-black">
+                    See You At Flavora!
+                </h2>
+
+                <p class="text-gray-400 mt-3">
+                    Jawahar Circle, Jaipur • 14–16 November 2026
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="bg-gray-950 border-t border-gray-800
+                   text-gray-400 text-center py-8">
+
+        <p class="text-white font-bold">
+            FLAVORA 2026
+        </p>
+
+        <p class="mt-2">
+            Jaipur Food & Culture Festival
+        </p>
+
+    </footer>
+
+</body>
+</html>
