@@ -38,3 +38,7 @@ flavora-food-festival/
 ├── register.html
 ├── images/
 └── README.md
+
+## GitHub Workflow
+This project uses git for version control and GitHub for remote repository management.
+The project follows a structured workflow using meaningful commits and branches during development .
