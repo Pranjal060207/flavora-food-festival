@@ -42,3 +42,11 @@ flavora-food-festival/
 ## GitHub Workflow
 This project uses git for version control and GitHub for remote repository management.
 The project follows a structured workflow using meaningful commits and branches during development .
+
+## Project Structure
+
+The project contains separate HTML pages for the home page, schedule, highlights, and registration. Images and other assets are organized in the `images` folder.
+
+## Development Notes
+
+The website is built with semantic HTML and Tailwind CSS, with responsive layouts designed for different screen sizes.
