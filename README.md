@@ -50,3 +50,7 @@ The project contains separate HTML pages for the home page, schedule, highlights
 ## Development Notes
 
 The website is built with semantic HTML and Tailwind CSS, with responsive layouts designed for different screen sizes.
+
+## Responsive Design
+
+The website is designed to adapt to mobile, tablet, and desktop screen sizes using responsive Tailwind CSS utility classes.
