@@ -58,4 +58,4 @@ The website is designed to adapt to mobile, tablet, and desktop screen sizes usi
 
 ## Live Website
 [View Live Website]
-(https://vercel.com/pranjal-2357/flavora-food-festival)
+(https://flavora-food-festival.vercel.app/)
