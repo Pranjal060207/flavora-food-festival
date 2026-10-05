@@ -54,3 +54,8 @@ The website is built with semantic HTML and Tailwind CSS, with responsive layout
 ## Responsive Design
 
 The website is designed to adapt to mobile, tablet, and desktop screen sizes using responsive Tailwind CSS utility classes.
+
+
+## Live Website
+[View Live Website]
+(https://vercel.com/pranjal-2357/flavora-food-festival)
